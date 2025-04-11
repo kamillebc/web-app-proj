@@ -65,7 +65,7 @@ function MadLib() {
       return;
   }
 
-  const story = "Once upon a time, the " + a1 + n1+" thought they could "+v1+" to the library.  However, along the way they ran into a "+a2+n2+ "and it began to "+v2+"!!!";
+  const story = "Once upon a time, the " + a1 +" "+ n1+" thought they could "+v1+" to the library.  However, along the way they ran into a "+a2+" "+n2+ "and it began to "+v2+"!!!";
   
   document.getElementById('result').innerText = story;
 }
