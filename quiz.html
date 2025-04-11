@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kamille Cunningham's Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="quiz.html"> Quiz</a></li>
+                <li><a href="index.html"><img src="book.png" alt="Home" style="width:80px;height:42px;"></a></li>
+                <li><a href="madlibs.html"> More</a></li>
+            </ul>
+           
+        </nav>
+    </header>
+
+    <main>
+        <h1>Personality Quiz</h1>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. What color most embodies you the most?</p>
+                <label><input type="radio" name="q1" value="A"> Red</label><br>
+                <label><input type="radio" name="q1" value="B"> Teal</label><br>
+                <label><input type="radio" name="q1" value="C"> Black</label><br>
+                <label><input type="radio" name="q1" value="D"> Pink</label><br>
+            </div>
+
+            <div class="question">
+                <p>2. What is your ideal pet?</p>
+                <label><input type="radio" name="q2" value="C"> Horse</label><br>
+                <label><input type="radio" name="q2" value="B"> Cat</label><br>
+                <label><input type="radio" name="q2" value="A"> Worm</label><br>
+                <label><input type="radio" name="q2" value="D"> RoboDog</label><br>
+            </div>
+
+            <div class="question">
+                <p>3. What's your favorite genre of music?</p>
+                <label><input type="radio" name="q3" value="B"> Hip-Hop</label><br>
+                <label><input type="radio" name="q3" value="C"> Pop</label><br>
+                <label><input type="radio" name="q3" value="D"> Morse Code Beeping</label><br>
+                <label><input type="radio" name="q3" value="A"> Classical</label><br>
+            </div>
+
+            <div class="question">
+                <p>4. Which vacation sounds the most relaxing?</p>
+                <label><input type="radio" name="q4" value="A"> Trip to Hawaii</label><br>
+                <label><input type="radio" name="q4" value="D"> Staycation</label><br>
+                <label><input type="radio" name="q4" value="C"> Meditiation Retreat</label><br>
+                <label><input type="radio" name="q4" value="B"> Dude Ranch</label><br>
+            </div>
+
+            <div class="question">
+                <p>5. Which hobby do you enjoy the most?</p>
+                <label><input type="radio" name="q5" value="A"> Working out</label><br>
+                <label><input type="radio" name="q5" value="B"> READING</label><br>
+                <label><input type="radio" name="q5" value="C"> Writing</label><br>
+                <label><input type="radio" name="q5" value="D"> Sleeping</label><br>
+            </div>
+
+            <button type="button" class="butt" onclick="calculateResults()">See Results</button>
+        </form>
+
+   </main>
+    <footer>
+        <p> &copy; KBC Inc. 2025</p>
+    </footer>
+</body>
+</html>
